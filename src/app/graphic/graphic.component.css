@@ -1,0 +1,51 @@
+.port-detail-wrap .row .leftside {
+    position: -webkit-sticky;
+    height: 600px;
+    overflow-y: scroll;
+    width: 90%;
+}
+
+.forlogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#king{
+    margin-left: 132px;
+    margin-bottom: 35px;
+}
+#king img{
+    width: 204px;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 413px) {
+    .kingsection{
+        margin-top: 58px;
+        margin-bottom: 20px;
+    }
+    #king{
+        margin-bottom: 35px;
+    }
+  #king img{
+        
+width: 80px;
+    height: 72px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    .kingsection{
+        margin-top: 58px;
+        margin-bottom: 20px;
+    }
+    #king{
+        margin-bottom: 35px;
+    }
+  #king img{
+    
+width: 80px;
+    height: 72px;
+  }
+}

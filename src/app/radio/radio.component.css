@@ -1,0 +1,79 @@
+#mysection {
+    width: 100%;
+    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.fixed-bg {
+    background-image: url(../../assets/out.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+}
+
+.videosection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    position: relative;
+    width: 300px;
+    margin: 10px 10px;
+    background: white;
+    box-shadow: 0, 50px, 80px rgba(0, 0, 0, 0.25);
+}
+
+.player .musicbox {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.player .musicbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player audio {
+    width: 100%;
+    background-color: #111;
+    outline: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 412px) {
+    .player {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .videosection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .player {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .videosection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
